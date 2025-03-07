@@ -21,7 +21,7 @@ if anos_meses == 'ANOS':
     anos = int(input('IRÁ PAGAR EM QUANTOS ANO(S): '))
     prestacao = valor_casa / (anos * 12)
     
-    if prestacao > salario + salario * 0.30:
+    if prestacao > salario * 0.30:
         print(f'EMPRÉSTIMO NEGADO!!! O VALOR DA PRESTAÇÃO EXCEDEU OS 30%({prestacao:.2f}).')
         exit()
     else:
@@ -33,7 +33,7 @@ elif anos_meses == 'MESES':
     prestacao = valor_casa / meses
      
     # Se prestação for maior que 30% do salário
-    if prestacao > salario + salario * 0.30:
+    if prestacao > salario * 0.30:
         print(f'EMPRÉSTIMO NEGADO!!! O VALOR DA PRESTAÇÃO EXCEDEU OS 30%({prestacao:.2f}).')
         exit()
     else:
