@@ -15,7 +15,10 @@ pares = 0
 for c in range(0, 6): # CRIANDO UMA REPETIÇÃO DE UM ATÉ SEIS.
     numero = int(input('DIGITE UM NÚMERO: ')) # IRÁ SE REPETIR SEIS VEZES.
     if numero % 2 == 0: # SE O RESTO DA DIVISÃO POR 2 == 0.
-        contador += numero # ADICIONANDO VARIÁVEL NÚMERO NA VARIÁVEL CONTADOR.
+        pares += numero # ADICIONANDO VARIÁVEL NÚMERO NA VARIÁVEL CONTADOR.
+        
+    elif numero % 2 == 1: #  SE O RESTO DA DIVISÃO POR 2 == 1.
+        impares += 1
 
-print(f'A SOMA DE TODOS OS NÚMEROS PARES É {contador}')
+print(f'VOCÊ COLOCOU {impares} NÚMEROS ÍMPARES. A SOMA DE TODOS OS NÚMEROS PARES É {pares}')
 exit()
