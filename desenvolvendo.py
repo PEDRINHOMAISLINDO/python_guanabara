@@ -6,7 +6,7 @@ escolha = str(input('''VOCÊ PREFERE:
     
     ? ''')).upper().strip()
     
-if escolha == '2':
+if escolha == '1':
     print('ABRINDO OUTRO PROGRAMA...')
     time.sleep(3)
     def linha(): # CRIANDO UMA FUNÇÃO PARA CRIAR LINHAS
@@ -23,14 +23,11 @@ if escolha == '2':
     linha()
     primeiro_termo = float(input('DIGITE O PRIMEIRO TERMO DE SUA PA: '))
     linha()
-    razao_inteira = int(math.trunc(razao))
-    p_t_inteiro = int(math.trunc(primeiro_termo))
+    print(primeiro_termo)
+    for c in range(1, 10):
+        print(f'{primeiro_termo + razao * c:.3f}')
     
-    for c in range(p_t_inteiro, p_t_inteiro * 11, razao_inteira):
-        print(c * 0 + razao)
-    exit()
-
-elif escolha == '1':
+elif escolha == '2':
      print('ABRINDO OUTRO PROGRAMA...')
      time.sleep(3)
      def linha(): # CRIANDO UMA FUNÇÃO PARA CRIAR LINHAS
