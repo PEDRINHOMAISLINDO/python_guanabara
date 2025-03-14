@@ -4,7 +4,7 @@ def linha():#CRIANDO UMA FUNÇÃO PARA CRIAR LINHAS
 nome_titulo = 'PROCURANDO UMA STRING DENTRO DE OUTRA'#CRIANDO UM TÍTULO CENTRALIZADO
 titulo = nome_titulo.center(25, '=')
 
-print('EXERCÍCIO 025!')
+print('EXERCÍCIO 026!')
 linha()
 print(titulo)
 linha()
