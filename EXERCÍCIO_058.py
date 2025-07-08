@@ -5,7 +5,7 @@ print('EXERCÍCIO 28! GUNANBARA!')
 print('_=' * 25)
 
 numero = int(input('ESCOLHA UM NÚMERO ENTRE 0 E 10: '))
-computador = random.randint(1, 10) # RANDINT É UMA FUNÇÃO QUE GERA UM NÚMERO INTEIRO DENTRO DE UM INTERVALO.(NESSE CASO 1 ATÉ 5)
+computador = random.randint(1, 10) # RANDINT É UMA FUNÇÃO QUE GERA UM NÚMERO INTEIRO DENTRO DE UM INTERVALO.(NESSE CASO 1 ATÉ 10)
 contador = 0
 while numero != computador:# while: ESTRUTURA DE REPETIÇÃO INFINITA. 
     numero = int(input('ESCOLHA IM NÚMERO ENTRE 0 E 10: '))
